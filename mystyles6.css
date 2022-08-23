@@ -1,0 +1,136 @@
+
+*{
+    margin:0;
+    padding:0;
+    
+}
+nav{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{     
+    width: 110px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.header{
+    width:1400px; min-height:35px;
+    background-color: #FFCBCB;
+    margin:auto auto;
+    text-align: center;
+    color: #fff;
+}
+/*heading*/
+.box h1{
+
+    font-size: 60px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #E4406F;
+
+}
+.box p{
+    text-align: center;
+    font-size: 24px;
+    
+}
+.row img{
+    height: 570px;
+    width: 370px;
+    padding-left: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: #F0E3FF;
+}
+.box-i h3{
+    text-align: center;
+    font-size: 27px;
+    padding-top: 70px;
+    color: #E4406F;
+}
+.box-i p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-left: 30px;
+    
+}
+
+/*footer*/
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width:1400px; min-height:400px;
+    background-color: #1c2b3a;
+    margin:auto auto;
+    padding: 20px 0px;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer-col h4{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 400;
+    position: relative;
+
+}
+.footer-col ul a{
+    color: #bbbbbb;
+    text-decoration: none;
+    position: relative;
+}
+.footer-col ul li{
+    color: #bbbbbb;
+    text-decoration: none;
+    position: relative;
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #f44336;
+    height: 2px;
+    box-sizing: border-box;
+    width: 180px;
+}
+.footer-col .icons a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+   
+}
+.branding{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 14px;
+}

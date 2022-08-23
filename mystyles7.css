@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: #FFF5E1;
+}
+nav{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{     
+    width: 110px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+}
+.header{
+    width:1400px; min-height:35px;
+    background-color: #FFCBCB;
+    margin:auto auto;
+    text-align: center;
+    color: #fff;
+}
+.heading p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: #94B49F;
+}
+.national-col h4{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    position: relative;
+    
+}
+.national-col{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.national h5{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 70px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.international h1{
+    text-align: center;
+    padding-top: 60px;
+    color: #94B49F;
+}
+.international-col h4{
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    position: relative;
+    
+}
+.international-col{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.international p{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 70px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+/*footer*/
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    width:1400px; min-height:400px;
+    background-color: #1c2b3a;
+    margin:auto auto;
+    padding: 20px 0px;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer-col h4{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 400;
+    position: relative;
+
+}
+.footer-col ul a{
+    color: #bbbbbb;
+    text-decoration: none;
+    position: relative;
+}
+.footer-col ul li{
+    color: #bbbbbb;
+    text-decoration: none;
+    position: relative;
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #f44336;
+    height: 2px;
+    box-sizing: border-box;
+    width: 180px;
+}
+.footer-col .icons a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+   
+}
+.branding{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 14px;
+}
+
